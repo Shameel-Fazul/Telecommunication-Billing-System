@@ -47,7 +47,7 @@ def BillingSystem(CustomerName,PackageType,TotalGBUsed):
         print("→ Customer Name                         : " + CustomerName)
         print("→ Package Type                          : " + PackageType)
         print("→ Premium Package Charge                : " + str(PremiumCustomer))
-        print("→ Excess Charge for excess "+str(ExcessGB)+" GB used    : " + str(ExcessCharge))
+        print("→ Excess Charge for excess "+str(ExcessGB)+" GB used   : " + str(ExcessCharge))
         print("→ Total Charge                          : " + str(TotalCharge))
         print("_____________________________________________________________________")
         print("                      ~ NEXT CUSTOMER ~                              ")
